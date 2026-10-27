@@ -1,0 +1,29 @@
+/* Cada categoría solo se oculta si su interruptor está activado (atributo en <html>) */
+html[data-nsp-shorts] [data-nsp-hidden="shorts"],
+html[data-nsp-juegos] [data-nsp-hidden="juegos"],
+html[data-nsp-noticias] [data-nsp-hidden="noticias"],
+html[data-nsp-premium] [data-nsp-hidden="premium"] {
+  display: none !important;
+}
+
+/* Shorts: baldas, pestañas y entradas de menú conocidas */
+html[data-nsp-shorts] ytd-rich-shelf-renderer[is-shorts],
+html[data-nsp-shorts] ytd-reel-shelf-renderer,
+html[data-nsp-shorts] ytm-shorts-lockup-view-model,
+html[data-nsp-shorts] ytm-shorts-lockup-view-model-v2,
+html[data-nsp-shorts] grid-shelf-view-model:has(a[href^="/shorts/"]),
+html[data-nsp-shorts] ytd-guide-entry-renderer:has(a[title="Shorts"]),
+html[data-nsp-shorts] ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+html[data-nsp-shorts] yt-tab-shape[tab-title="Shorts"],
+html[data-nsp-shorts] yt-chip-cloud-chip-renderer:has(yt-formatted-string[title="Shorts"]) {
+  display: none !important;
+}
+
+/* Promociones de YouTube Premium */
+html[data-nsp-premium] ytd-banner-promo-renderer,
+html[data-nsp-premium] ytd-statement-banner-renderer,
+html[data-nsp-premium] ytd-mealbar-promo-renderer,
+html[data-nsp-premium] yt-mealbar-promo-renderer,
+html[data-nsp-premium] ytd-primetime-promo-renderer {
+  display: none !important;
+}
