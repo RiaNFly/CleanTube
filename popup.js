@@ -1,7 +1,7 @@
 (() => {
   "use strict";
   const api = typeof browser !== "undefined" ? browser : chrome;
-  const DEFECTO = { shorts: true, juegos: true, noticias: true, premium: true };
+  const DEFECTO = { shorts: true, juegos: true, noticias: true, premium: true, miembros: true, temas: true };
 
   // Textos traducidos (inglés / español según el idioma del navegador)
   document.documentElement.lang = api.i18n.getUILanguage();

@@ -1,0 +1,32 @@
+{
+  "extName": {
+    "message": "CleanTube"
+  },
+  "extDescription": {
+    "message": "Oculta en YouTube Shorts, juegos, Últimas noticias, promos de Premium, contenido de miembros y temas, con interruptores."
+  },
+  "actionTitle": {
+    "message": "CleanTube"
+  },
+  "optShorts": {
+    "message": "Ocultar Shorts"
+  },
+  "optGames": {
+    "message": "Ocultar juegos (Playables)"
+  },
+  "optNews": {
+    "message": "Ocultar Últimas noticias"
+  },
+  "optPremium": {
+    "message": "Ocultar promos de Premium"
+  },
+  "noteInstant": {
+    "message": "Los cambios se aplican al momento."
+  },
+  "optMembers": {
+    "message": "Ocultar contenido de miembros"
+  },
+  "optTopics": {
+    "message": "Ocultar «Descubre más temas»"
+  }
+}

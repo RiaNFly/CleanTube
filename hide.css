@@ -2,7 +2,9 @@
 html[data-nsp-shorts] [data-nsp-hidden="shorts"],
 html[data-nsp-juegos] [data-nsp-hidden="juegos"],
 html[data-nsp-noticias] [data-nsp-hidden="noticias"],
-html[data-nsp-premium] [data-nsp-hidden="premium"] {
+html[data-nsp-premium] [data-nsp-hidden="premium"],
+html[data-nsp-miembros] [data-nsp-hidden="miembros"],
+html[data-nsp-temas] [data-nsp-hidden="temas"] {
   display: none !important;
 }
 
@@ -25,5 +27,11 @@ html[data-nsp-premium] ytd-statement-banner-renderer,
 html[data-nsp-premium] ytd-mealbar-promo-renderer,
 html[data-nsp-premium] yt-mealbar-promo-renderer,
 html[data-nsp-premium] ytd-primetime-promo-renderer {
+  display: none !important;
+}
+
+/* Miembros: botón "Unirse" y ofertas de membresía */
+html[data-nsp-miembros] #sponsor-button,
+html[data-nsp-miembros] ytd-sponsorships-offer-renderer {
   display: none !important;
 }
