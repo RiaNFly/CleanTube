@@ -17,7 +17,6 @@ A small Firefox / Zen Browser extension that cleans up YouTube. Click the toolba
 - Languages: English and Spanish (follows the browser language).
 
 ## Install
-- **Temporary (for testing):** open `about:debugging#/runtime/this-firefox`, click "Load Temporary Add-on…" and select `manifest.json`.
 - **Permanent:** download the signed `.xpi` from the Releases page and drag it into the browser, or use `about:addons` → gear icon → "Install Add-on From File…".
 
 ## Known limits
